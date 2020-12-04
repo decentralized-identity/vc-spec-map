@@ -75,3 +75,9 @@ ldp-bbs2020,ld-proofs,depends,depends
 ldp-bbs2020,security-vocab,depends,depends
 ld-proofs,ld-cryptosuite-registry,depends,depends
 ld-proofs,rdf-dataset-normalization,references,references
+presentation-exchange,CHAPI,depends,depends
+presentation-exchange,didcomm-messaging,depends,depends
+presentation-exchange,OIDC,depends,depends
+presentation-exchange,vc-data-model,depends,depends
+presentation-exchange,JWS-unencoded-payload,depends,depends
+JWS-unencoded-payload,JWT,related,related
