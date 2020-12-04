@@ -6,6 +6,7 @@ It does not yet address some of the items especially under DIF work groups for s
 
 Corrections welcome. This is a work in progress. Contribute via filling of issues or a PR.
 
-Current release contains a draw.io diagram that will open freely in a browser using the open source https://app.diagrams.net. It also contains the primary diagram output as a png and pdf.
+Current release contains a draw.io diagram that will open freely in a browser using the open source https://app.diagrams.net. It also contains the primary diagram output as a png and pdf. There is a parallel release of the diagram in development on kumu at https://www.kumu.io/michaelruminer/vc-spec-map. It is expected that a kumu version will end up supplanting the draw.io version in the near future.
+
 
 
