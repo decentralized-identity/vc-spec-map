@@ -1,0 +1,230 @@
+{
+  "version": 1,
+  "name": "VC-spec-map",
+  "description": "",
+  "proxyImages": true,
+  "defaultMap": "map-GLvw45PH",
+  "defaultPerspective": null,
+  "attributeRelevance": {},
+  "attributes": [
+    {
+      "_id": "attr-8n8EQGyQ",
+      "name": "Connection Type",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "list",
+      "locked": false,
+      "values": [
+        "Same",
+        "Opposite",
+        "+",
+        "-",
+        "++",
+        "+-",
+        "-+",
+        "--",
+        "depends",
+        "references",
+        "implements",
+        "related",
+        "extends"
+      ],
+      "sort": false,
+      "cluster": false
+    },
+    {
+      "_id": "attr-mwarOAFY",
+      "name": "Description",
+      "format": "text",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "none",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": false
+    },
+    {
+      "_id": "attr-ffH0LI3w",
+      "name": "Document Type",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "autocomplete",
+      "locked": false,
+      "values": [
+        "W3C Working Draft",
+        "W3C Editor's Draft",
+        "W3C Draft Community Group Report",
+        null,
+        "Identity Foundation Draft",
+        "W3C Draft Community Report",
+        "IETF RFC",
+        "IPLD Spec",
+        "IANA Spec",
+        "W3C Community Group Report",
+        "W3C Unofficial Draft",
+        "IETF Network Working Group Internet Draft",
+        "IETF Internet Draft Informational",
+        "Other",
+        "IETF Networking Working Group Internet Draft",
+        "W3C Recommendation",
+        "Aries RFC",
+        "W3C Working Group Note",
+        "Network Working Group Internet Draft"
+      ],
+      "sort": false,
+      "cluster": true
+    },
+    {
+      "_id": "attr-VQx0UZBB",
+      "name": "Element Type",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "list",
+      "locked": false,
+      "values": [
+        "core",
+        "non-core"
+      ],
+      "sort": false,
+      "cluster": true
+    },
+    {
+      "_id": "attr-7D4pB9am",
+      "name": "Label",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "autocomplete",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": false
+    },
+    {
+      "_id": "attr-yTCtafbk",
+      "name": "Loop Type",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "list",
+      "locked": false,
+      "values": [
+        "Reinforcing",
+        "Balancing",
+        "Vicious",
+        "Virtuous",
+        "Stabilizing",
+        "Stagnating"
+      ],
+      "sort": false,
+      "cluster": false
+    },
+    {
+      "_id": "attr-M43i9U7j",
+      "name": "Tags",
+      "format": "string",
+      "private": false,
+      "limit": "none",
+      "category": "General",
+      "prompt": "autocomplete",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": true
+    },
+    {
+      "_id": "attr-rzHKWMFn",
+      "name": "Title",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "autocomplete",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": true
+    },
+    {
+      "_id": "attr-BhNezpJ5",
+      "name": "URL",
+      "format": "url",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "none",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": true
+    }
+  ],
+  "elements": [
+    
+  ],
+  "connections": [
+    
+  ],
+  "loops": [],
+  "maps": [
+    {
+      "_id": "map-GLvw45PH",
+      "name": "Verifiable Credentials Specification Map",
+      "description": "verifiable credentials specification map",
+      "scale": 1,
+      "center": {
+        "x": 0,
+        "y": 0
+      },
+      "defaultPerspective": "pers-YCmf78hh",
+      "defaultElementBehavior": "fixed",
+      "defaultConnectionDirection": "directed",
+      "elements": [],
+      "connections": [],
+      "loops": []
+    },
+    {
+      "_id": "map-FaqQWnog",
+      "name": "playground",
+      "description": "verifiable credentials specification map",
+      "scale": 1,
+      "center": {
+        "x": 0,
+        "y": 0
+      },
+      "defaultPerspective": "pers-YCmf78hh",
+      "defaultElementBehavior": "fixed",
+      "defaultConnectionDirection": "directed",
+      "elements": [],
+      "connections": [],
+      "loops": []
+    }
+  ],
+  "perspectives": [
+    {
+      "_id": "pers-juiNKbbA",
+      "name": "Full Map",
+      "style": "@settings {\n  template: systems;\n  element-color: categorize(\"Element Type\", olympic);\n  layout-preset: dense;\n  same-label: \"\";\n  opposite-label: \"\";\n}\n\n"
+    },
+    {
+      "_id": "pers-YCmf78hh",
+      "name": "Full Map Text Block",
+      "style": "@settings {\n  template: causal-loop;\n  layout-preset: hairball;\n  layout: force;\n  element-color: categorize(\"Element Type\", neon2);\n  same-label: \"\";\n  opposite-label: \"\";\n}\n\n/* core \nelement[\"element type\"=\"core\"] {\n  color: #36a155;\n}\n*/\n\n/* non-core \nelement[\"element type\"=\"non-core\"] {\n  color: #f87d29;\n}\n*/\n"
+    },
+    {
+      "_id": "pers-roGGZvV4",
+      "name": "Text Map All Nodes",
+      "style": "@settings {\n  template: causal-loop;\n}\n\n"
+    }
+  ]
+}
