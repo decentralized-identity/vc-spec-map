@@ -10,7 +10,7 @@ did-core,CBOR,implements,implements
 did-core,DagCBOR,implements,implements
 did-core,COSE,implements,implements
 CBOR,CBOR-Tag-Registry,depends,depends
-DagCBOR,CBOR,related,related
+DagCBOR,CBOR,extends,extends
 COSE,CBOR,related,related
 CBOR-Tags-Date,CBOR,related,related
 CBOR-Tags-Date,CBOR-Tag-Registry,related,related

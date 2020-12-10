@@ -8,7 +8,7 @@ Ed25519-signature-2018,W3C,core,Ed25519 Signature 2018,W3C Draft Community Group
 EcdsaSecp256k1-signature-2019,W3C,core,Ecdsa Secp256k1 Signature 2019,W3C Draft Community Report,https://w3c-ccg.github.io/lds-ecdsa-secp256k1-2019,,https://github.com/w3c-ccg/lds-ecdsa-secp256k1-2019/
 RSA-signaturesuite-2018,W3C,core,RSA Signature Suite 2018,W3C Draft Community Group Report,https://w3c-ccg.github.io/lds-rsa2018,,https://github.com/w3c-ccg/lds-rsa2018
 CBOR,IETF,non-core,Concise Binary Object Representation,IETF RFC,https://tools.ietf.org/html/rfc7049,,
-DagCBOR,IPLD,non-core,DagCBOR,IPLD Spec,https://github.com/ipld/specs/blob/master/block-layer/codecs/dag-cbor.md,,
+DagCBOR,IPLD,non-core,DagCBOR,IPLD Spec,https://github.com/ipld/cid-cbor/,,
 COSE,IETF,non-core,CBOR Object Signing and Encryption,IETF RFC,https://tools.ietf.org/html/rfc8152,,
 CBOR-Tag-Registry,IANA,non-core,Concise Binary Object Representation (CBOR) Tags,IANA Spec,https://www.iana.org/assignments/cbor-tags/cbor-tags.xhtml,,
 CBOR-Tags-Date,IETF,non-core,CBOR Tags for Date,IETF RFC,https://tools.ietf.org/html/rfc8943,,
