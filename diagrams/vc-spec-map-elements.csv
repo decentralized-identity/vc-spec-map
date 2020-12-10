@@ -1,68 +1,68 @@
-label,tags,type,Title,Document Type,URL,Description,Repo URL
-did-core,W3C,core,Decentralized Identifiers (DIDs) V1.0,W3C Working Draft,https://www.w3.org/TR/did-core/,,https://github.com/w3c/did-core/
-did-spec-registries,W3C,core,DID Specification Registries,W3C Editor's Draft,https://w3c.github.io/did-spec-registries,,https://github.com/w3c/did-spec-registries/
-security-vocab,W3C,core,The Security Vocabulary,W3C Draft Community Group Report,https://w3c-ccg.github.io/security-vocab,,https://github.com/w3c-ccg/security-vocab/
-signature-other,aggregate,core,Other Signature Schemes,,,Other Signature Schemes Pending Normative Definition In http://w3c-ccg.github.io,
-EcdsaSecp256k1-recoverysignature-2020,DIF,core,EcdsaSecp256k1RecoverySignature2020,Identity Foundation Draft,https://identity.foundation/EcdsaSecp256k1RecoverySignature2020,,https://github.com/decentralized-identity/EcdsaSecp256k1RecoverySignature2020
-Ed25519-signature-2018,W3C,core,Ed25519 Signature 2018,W3C Draft Community Group Report,https://w3c-ccg.github.io/lds-ed25519-2018,,https://github.com/w3c-ccg/lds-ed25519-2018
-EcdsaSecp256k1-signature-2019,W3C,core,Ecdsa Secp256k1 Signature 2019,W3C Draft Community Report,https://w3c-ccg.github.io/lds-ecdsa-secp256k1-2019,,https://github.com/w3c-ccg/lds-ecdsa-secp256k1-2019/
-RSA-signaturesuite-2018,W3C,core,RSA Signature Suite 2018,W3C Draft Community Group Report,https://w3c-ccg.github.io/lds-rsa2018,,https://github.com/w3c-ccg/lds-rsa2018
-CBOR,IETF,non-core,Concise Binary Object Representation,IETF RFC,https://tools.ietf.org/html/rfc7049,,
-DagCBOR,IPLD,non-core,DagCBOR,IPLD Spec,https://github.com/ipld/cid-cbor/,,
-COSE,IETF,non-core,CBOR Object Signing and Encryption,IETF RFC,https://tools.ietf.org/html/rfc8152,,
-CBOR-Tag-Registry,IANA,non-core,Concise Binary Object Representation (CBOR) Tags,IANA Spec,https://www.iana.org/assignments/cbor-tags/cbor-tags.xhtml,,
-CBOR-Tags-Date,IETF,non-core,CBOR Tags for Date,IETF RFC,https://tools.ietf.org/html/rfc8943,,
-did-resolution,W3C,core,Decentralized Identifier Resolution,W3C Community Group Report,https://w3c-ccg.github.io/did-resolution,,https://github.com/w3c-ccg/did-resolution/
-did-method-key,W3C,core,The did:key Method,W3C Unofficial Draft,https://w3c-ccg.github.io/did-method-key,,https://github.com/w3c-ccg/did-method-key/
-did-method-peer,W3C|DIF,core,Peer DID Method Specification,W3C Unofficial Draft,https://identity.foundation/peer-did-method-spec,,https://github.com/decentralized-identity/peer-did-method-spec/
-did-method-sovrin,W3C|Sovrin,core,Sovrin DID Method Specification,W3C Editor's Draft,https://sovrin-foundation.github.io/sovrin/spec/did-method-spec-template.html,,https://github.com/sovrin-foundation/sovrin
-did-method-web,W3C,core,did:web Method Specification,W3C Draft Community Group Report,https://w3c-ccg.github.io/did-method-web,,https://github.com/w3c-ccg/did-method-web/
-did-dns,IETF,non-core,Decentralized Identifier in the DNS,IETF Network Working Group Internet Draft,https://tools.ietf.org/html/draft-mayrhofer-did-dns-01,,
+label,tags,type,Title,Document Type,URL,Description,Repo URL,Maturity
+did-core,W3C,core,Decentralized Identifiers (DIDs) V1.0,W3C Working Draft,https://www.w3.org/TR/did-core/,,https://github.com/w3c/did-core/,Draft
+did-spec-registries,W3C,core,DID Specification Registries,W3C Editor's Draft,https://w3c.github.io/did-spec-registries,,https://github.com/w3c/did-spec-registries/,Draft
+security-vocab,W3C,core,The Security Vocabulary,W3C Draft Community Group Report,https://w3c-ccg.github.io/security-vocab,,https://github.com/w3c-ccg/security-vocab/,Community Group
+signature-other,aggregate,core,Other Signature Schemes,,,Other Signature Schemes Pending Normative Definition In http://w3c-ccg.github.io,,
+EcdsaSecp256k1-recoverysignature-2020,DIF,core,EcdsaSecp256k1RecoverySignature2020,Identity Foundation Draft,https://identity.foundation/EcdsaSecp256k1RecoverySignature2020,,https://github.com/decentralized-identity/EcdsaSecp256k1RecoverySignature2020,Draft
+Ed25519-signature-2018,W3C,core,Ed25519 Signature 2018,W3C Draft Community Group Report,https://w3c-ccg.github.io/lds-ed25519-2018,,https://github.com/w3c-ccg/lds-ed25519-2018,Community Group
+EcdsaSecp256k1-signature-2019,W3C,core,Ecdsa Secp256k1 Signature 2019,W3C Draft Community Report,https://w3c-ccg.github.io/lds-ecdsa-secp256k1-2019,,https://github.com/w3c-ccg/lds-ecdsa-secp256k1-2019/,Community Group
+RSA-signaturesuite-2018,W3C,core,RSA Signature Suite 2018,W3C Draft Community Group Report,https://w3c-ccg.github.io/lds-rsa2018,,https://github.com/w3c-ccg/lds-rsa2018,Community Group
+CBOR,IETF,non-core,Concise Binary Object Representation,IETF RFC,https://tools.ietf.org/html/rfc7049,,,Proposed Standard
+DagCBOR,IPLD,non-core,DagCBOR,IPLD Spec,https://github.com/ipld/cid-cbor/,,,Draft
+COSE,IETF,non-core,CBOR Object Signing and Encryption,IETF RFC,https://tools.ietf.org/html/rfc8152,,,Proposed Standard
+CBOR-Tag-Registry,IANA,non-core,Concise Binary Object Representation (CBOR) Tags,IANA Spec,https://www.iana.org/assignments/cbor-tags/cbor-tags.xhtml,,,Standard
+CBOR-Tags-Date,IETF,non-core,CBOR Tags for Date,IETF RFC,https://tools.ietf.org/html/rfc8943,,,Proposed Standard
+did-resolution,W3C,core,Decentralized Identifier Resolution,W3C Community Group Report,https://w3c-ccg.github.io/did-resolution,,https://github.com/w3c-ccg/did-resolution/,Community Group
+did-method-key,W3C,core,The did:key Method,W3C Unofficial Draft,https://w3c-ccg.github.io/did-method-key,,https://github.com/w3c-ccg/did-method-key/,
+did-method-peer,W3C|DIF,core,Peer DID Method Specification,W3C Unofficial Draft,https://identity.foundation/peer-did-method-spec,,https://github.com/decentralized-identity/peer-did-method-spec/,Draft
+did-method-sovrin,W3C|Sovrin,core,Sovrin DID Method Specification,W3C Editor's Draft,https://sovrin-foundation.github.io/sovrin/spec/did-method-spec-template.html,,https://github.com/sovrin-foundation/sovrin,Draft
+did-method-web,W3C,core,did:web Method Specification,W3C Draft Community Group Report,https://w3c-ccg.github.io/did-method-web,,https://github.com/w3c-ccg/did-method-web/,Community Group
+did-dns,IETF,non-core,Decentralized Identifier in the DNS,IETF Network Working Group Internet Draft,https://tools.ietf.org/html/draft-mayrhofer-did-dns-01,,,Working Group
 did-method-other,W3C,core,Other did methods,,,"Other did methods not specifically shown on this map but referenced. 
-",
-SHA256,IETF,non-core,US Secure Hash Algorithms,IETF RFC,https://tools.ietf.org/html/rfc4634,,
-Base58,IETF,non-core,Base 58 Encoding Scheme,IETF Internet Draft Informational,https://tools.ietf.org/id/draft-msporny-base58-01.html,,
-multicodec,,non-core,Table of Codecs,Other,https://github.com/multiformats/multicodec/blob/master/README.md,,
-draft-multiformats-multibase-02,IETF,non-core,Multibase Data Format,IETF Networking Working Group Internet Draft,https://tools.ietf.org/html/draft-multiformats-multibase-02,,
-URI-syntax,IETF,non-core,Uniform Resource Identifier (URI): Generic Syntax,IETF RFC,https://tools.ietf.org/html/rfc3986,,
-JSON-LD,W3C,non-core,A JSON-based Serialization for Linked Data,W3C Recommendation,https://www.w3.org/TR/json-ld11,,
-JWK,IETF,non-core,JSON Web Key,IETF RFC,https://tools.ietf.org/html/rfc7517,,
-XSD-Part2-Datatypes,W3C,non-core,XML XSD  Part 2: Datatypes,W3C Recommendation,https://www.w3.org/TR/xmlschema11-2/,,
-did-comm-aries-Sync-Connection,Aries,core,Sync Connection Protocol,Aries RFC,https://github.com/hyperledger/aries-rfcs/blob/master/features/0030-sync-connection,,https://github.com/hyperledger/aries-rfcs/tree/master/features/0030-sync-connection
-did-comm-aries-Out-of-Band,Aries,core,Out of Band Protocol,Aries RFC,https://github.com/hyperledger/aries-rfcs/blob/master/features/0434-outofband,,https://github.com/hyperledger/aries-rfcs/blob/master/features/0434-outofband
-did-comm: aries: Exchange,Aries,core,Exchange Protocol,Aries RFC,https://github.com/hyperledger/aries-rfcs/blob/master/features/0023-did-exchange,,https://github.com/hyperledger/aries-rfcs/blob/master/features/0023-did-exchange
-aries-predefined-identities,Aries,core,Aries Predefined Identities,Aries RFC,https://github.com/hyperledger/aries-rfcs/tree/master/features/0114-predefined-identities,,https://github.com/hyperledger/aries-rfcs/tree/master/features/0114-predefined-identities
-vc-data-model,W3C,core,Verifiable Credentials Data Model,W3C Recommendation,https://www.w3.org/TR/vc-data-model,,https://github.com/w3c/vc-data-model/
-Timestamps,IETF,non-core,Date and Time on the Internet: Timestamps,IETF RFC,https://tools.ietf.org/html/rfc3339,,
-JWT,IETF,non-core,JSON Web Token,IETF RFC,https://tools.ietf.org/html/rfc7519,,
-JWS,IETF,non-core,JSON Web Signtaures,IETF RFC,https://tools.ietf.org/html/rfc7515,,
-vc-use-cases,W3C,core,Verifiable Credentials Use Cases,W3C Working Group Note,https://www.w3.org/TR/vc-use-cases,,https://github.com/w3c/vc-use-cases/
-vc-imp-guide,W3C,core,Verifiable Credentials Implementation Guidelines 1.0,W3C Editor's Draft,https://w3c.github.io/vc-imp-guide,,https://github.com/w3c/vc-imp-guide/
-vc-extension-registry,W3C,core,Verifiable Credentials Extension Registry,W3C Draft Community Group Report,https://w3c-ccg.github.io/vc-extension-registry,,https://github.com/w3c-ccg/vc-status-registry/
-hashlinks,IETF,non-core,Cryptograohic Hyperlinks,Network Working Group Internet Draft,https://tools.ietf.org/html/draft-sporny-hashlink-06,,
-Token Binding,IETF,non-core,Token Binding Protocol,IETF RFC,https://tools.ietf.org/html/rfc8471,,
-vc-status-rl-2020,W3C,core,Revocation List 2020,W3C Draft Community Group Report,https://w3c-ccg.github.io/vc-status-rl-2020/,,https://github.com/digitalbazaar/vc-status-rl-2020/
-ZLIB,IETF,non-core,ZLIB Compressed Data Format Spec v3.3,IETF RFC,https://tools.ietf.org/html/rfc1950,,
-Base 64,IETF,non-core,"Base16, Base32, Base 64 Data Encodings",IETF RFC,https://tools.ietf.org/html/rfc4648,,
-vc-json-schemas,W3C,core,Verifiable CRedentials JSON Schema Spec,W3C Draft Community Group Report,https://w3c-ccg.github.io/vc-json-schemas,,https://github.com/w3c-ccg/vc-json-schemas
-did-use-cases,W3C,core,Use Cases and Requirements for Decentralized Identifiers,W3C Editor's Draft,https://w3c.github.io/did-use-cases/,,https://github.com/w3c/did-use-cases/
-did-auth,,non-core,Introduction to DID Auth,Other,https://github.com/WebOfTrustInfo/rwot6-santabarbara/blob/master/final-documents/did-auth.md,,
-vp-request-spec,W3C,core,Verifiable Presentation Request Specification,WW3C Draft Community Group Report,https://w3c-ccg.github.io/vp-request-spec,,https://github.com/w3c-ccg/vp-request-spec/
-CHAPI,W3C,core,Credential Handler API,W3c Draft Community Group Report,https://w3c-ccg.github.io/credential-handler-api,,https://github.com/w3c-ccg/credential-handler-api/
-credential-management,W3C,non-core,Credential Management Level 1,W3C Working Draft,https://www.w3.org/TR/credential-management-1,,
-secure-contexts,W3C,non-core,Secure Contexts,W3CCandidate Recommendation,https://www.w3.org/TR/secure-contexts,,
-service-workers-1,W3C,non-core,Service Workers 1,W3C Candidate Recommendation,https://www.w3.org/TR/service-workers-1,,
-web-idl,,non-core,Web Interface Definition Language,W3C Editors Draft,https://heycam.github.io/webidl,,
-well-known-did,DIF,core,Well Known DID Configuration,DIF Working Group Approved Draft,https://identity.foundation/.well-known/resources/did-configuration,,https://github.com/decentralized-identity/.well-known/
-presentation-exchange,DIF,core,Presentation Exchange,DIF Working Group Draft,https://identity.foundation/presentation-exchange,,https://github.com/decentralized-identity/presentation-exchange
-didcomm-messaging,DIF,core,DidComm Messaging,DIF Editor's Draft,https://identity.foundation/didcomm-messaging/spec,,https://github.com/decentralized-identity/didcomm-messaging
-did-comm-messaging-guide,DIF,core,DIDComm Messaging Implementer's Guide,DIF Informational,https://identity.foundation/didcomm-messaging/guide,,https://github.com/decentralized-identity/didcomm-messaging
-JWM,IETF,non-core,JSON Web Message,Network Working Group Internet Draft,https://tools.ietf.org/id/draft-looker-jwm-01.html,,
-JWA,IETF,non-core,JSON Web Algorithms,IETF RFC,https://tools.ietf.org/html/rfc7518,,
-bbs-signatures-spec,MATTR,core,BBS+ Signature Scheme,Internet Informational Draft,https://mattrglobal.github.io/bbs-signatures-spec,,https://mattrglobal.github.io/bbs-signatures-spec
-rdf-dataset-normalization,,non-core,RDF Dataset Normalization,W3C Draft Group COmmunity Report,https://json-ld.github.io/normalization/spec,,
-ldp-bbs2020,W3C,core,BBS+ Signatures 2020,W3C Draftt Community Group Report,https://w3c-ccg.github.io/ldp-bbs2020,,https://github.com/w3c-ccg/ldp-bbs2020/
-ld-proofs,W3C,core,Linked Data Proofs,W3C Draft Community Group Report,https://w3c-ccg.github.io/ld-proofs,,https://github.com/w3c-ccg/ld-proofs/
-ld-cryptosuite-registry,W3C,core,Linked Data Cryptographic Suite Registry,W3C Draft Community Group Report,https://w3c-ccg.github.io/ld-cryptosuite-registry,,https://github.com/w3c-ccg/ld-cryptosuite-registry/
-OIDC,OpenId,non-core,Welcome to OpenID Connect,Other,https://openid.net/connect/,,
-JWS-unencoded-payload,IETF,non-core,JSON Web Signature (JWS) Unencoded Payload Option,IETF RFC,https://tools.ietf.org/html/rfc7797,,
+",,
+SHA256,IETF,non-core,US Secure Hash Algorithms,IETF RFC,https://tools.ietf.org/html/rfc4634,,,Informational
+Base58,IETF,non-core,Base 58 Encoding Scheme,IETF Internet Draft Informational,https://tools.ietf.org/id/draft-msporny-base58-01.html,,,Draft
+multicodec,,non-core,Table of Codecs,Other,https://github.com/multiformats/multicodec/blob/master/README.md,,,Draft
+draft-multiformats-multibase-02,IETF,non-core,Multibase Data Format,IETF Networking Working Group Internet Draft,https://tools.ietf.org/html/draft-multiformats-multibase-02,,,Working Group
+URI-syntax,IETF,non-core,Uniform Resource Identifier (URI): Generic Syntax,IETF RFC,https://tools.ietf.org/html/rfc3986,,,Standard
+JSON-LD,W3C,non-core,A JSON-based Serialization for Linked Data,W3C Recommendation,https://www.w3.org/TR/json-ld11,,,Standard
+JWK,IETF,non-core,JSON Web Key,IETF RFC,https://tools.ietf.org/html/rfc7517,,,Proposed Standard
+XSD-Part2-Datatypes,W3C,non-core,XML XSD  Part 2: Datatypes,W3C Recommendation,https://www.w3.org/TR/xmlschema11-2/,,,Standard
+did-comm-aries-Sync-Connection,Aries,core,Sync Connection Protocol,Aries RFC,https://github.com/hyperledger/aries-rfcs/blob/master/features/0030-sync-connection,,https://github.com/hyperledger/aries-rfcs/tree/master/features/0030-sync-connection,Aries Proposed
+did-comm-aries-Out-of-Band,Aries,core,Out of Band Protocol,Aries RFC,https://github.com/hyperledger/aries-rfcs/blob/master/features/0434-outofband,,https://github.com/hyperledger/aries-rfcs/blob/master/features/0434-outofband,Aries Proposed
+did-comm: aries: Exchange,Aries,core,Exchange Protocol,Aries RFC,https://github.com/hyperledger/aries-rfcs/blob/master/features/0023-did-exchange,,https://github.com/hyperledger/aries-rfcs/blob/master/features/0023-did-exchange,Aries Demonstrated
+aries-predefined-identities,Aries,core,Aries Predefined Identities,Aries RFC,https://github.com/hyperledger/aries-rfcs/tree/master/features/0114-predefined-identities,,https://github.com/hyperledger/aries-rfcs/tree/master/features/0114-predefined-identities,Aries Proposed
+vc-data-model,W3C,core,Verifiable Credentials Data Model,W3C Recommendation,https://www.w3.org/TR/vc-data-model,,https://github.com/w3c/vc-data-model/,Standard
+Timestamps,IETF,non-core,Date and Time on the Internet: Timestamps,IETF RFC,https://tools.ietf.org/html/rfc3339,,,Proposed Standard
+JWT,IETF,non-core,JSON Web Token,IETF RFC,https://tools.ietf.org/html/rfc7519,,,Proposed Standard
+JWS,IETF,non-core,JSON Web Signtaures,IETF RFC,https://tools.ietf.org/html/rfc7515,,,Proposed Standard
+vc-use-cases,W3C,core,Verifiable Credentials Use Cases,W3C Working Group Note,https://www.w3.org/TR/vc-use-cases,,https://github.com/w3c/vc-use-cases/,Working Group
+vc-imp-guide,W3C,core,Verifiable Credentials Implementation Guidelines 1.0,W3C Editor's Draft,https://w3c.github.io/vc-imp-guide,,https://github.com/w3c/vc-imp-guide/,Draft
+vc-extension-registry,W3C,core,Verifiable Credentials Extension Registry,W3C Draft Community Group Report,https://w3c-ccg.github.io/vc-extension-registry,,https://github.com/w3c-ccg/vc-status-registry/,Community Group
+hashlinks,IETF,non-core,Cryptograohic Hyperlinks,Network Working Group Internet Draft,https://tools.ietf.org/html/draft-sporny-hashlink-06,,,Working Group
+Token Binding,IETF,non-core,Token Binding Protocol,IETF RFC,https://tools.ietf.org/html/rfc8471,,,Proposed Standard
+vc-status-rl-2020,W3C,core,Revocation List 2020,W3C Draft Community Group Report,https://w3c-ccg.github.io/vc-status-rl-2020/,,https://github.com/digitalbazaar/vc-status-rl-2020/,Community Group
+ZLIB,IETF,non-core,ZLIB Compressed Data Format Spec v3.3,IETF RFC,https://tools.ietf.org/html/rfc1950,,,Informational
+Base 64,IETF,non-core,"Base16, Base32, Base 64 Data Encodings",IETF RFC,https://tools.ietf.org/html/rfc4648,,,Proposed Standard
+vc-json-schemas,W3C,core,Verifiable CRedentials JSON Schema Spec,W3C Draft Community Group Report,https://w3c-ccg.github.io/vc-json-schemas,,https://github.com/w3c-ccg/vc-json-schemas,Community Group
+did-use-cases,W3C,core,Use Cases and Requirements for Decentralized Identifiers,W3C Editor's Draft,https://w3c.github.io/did-use-cases/,,https://github.com/w3c/did-use-cases/,Draft
+did-auth,,non-core,Introduction to DID Auth,Other,https://github.com/WebOfTrustInfo/rwot6-santabarbara/blob/master/final-documents/did-auth.md,,,Draft
+vp-request-spec,W3C,core,Verifiable Presentation Request Specification,WW3C Draft Community Group Report,https://w3c-ccg.github.io/vp-request-spec,,https://github.com/w3c-ccg/vp-request-spec/,Community Group
+CHAPI,W3C,core,Credential Handler API,W3C Draft Community Group Report,https://w3c-ccg.github.io/credential-handler-api,,https://github.com/w3c-ccg/credential-handler-api/,Community Group
+credential-management,W3C,non-core,Credential Management Level 1,W3C Working Draft,https://www.w3.org/TR/credential-management-1,,,Draft
+secure-contexts,W3C,non-core,Secure Contexts,W3C Candidate Recommendation,https://www.w3.org/TR/secure-contexts,,,Candidate Recommendation
+service-workers-1,W3C,non-core,Service Workers 1,W3C Candidate Recommendation,https://www.w3.org/TR/service-workers-1,,,Candidate Recommendation
+web-idl,,non-core,Web Interface Definition Language,W3C Editors Draft,https://heycam.github.io/webidl,,,Draft
+well-known-did,DIF,core,Well Known DID Configuration,DIF Working Group Approved Draft,https://identity.foundation/.well-known/resources/did-configuration,,https://github.com/decentralized-identity/.well-known/,Working Group
+presentation-exchange,DIF,core,Presentation Exchange,DIF Working Group Draft,https://identity.foundation/presentation-exchange,,https://github.com/decentralized-identity/presentation-exchange,Working Group
+didcomm-messaging,DIF,core,DidComm Messaging,DIF Editor's Draft,https://identity.foundation/didcomm-messaging/spec,,https://github.com/decentralized-identity/didcomm-messaging,Draft
+did-comm-messaging-guide,DIF,core,DIDComm Messaging Implementer's Guide,DIF Informational,https://identity.foundation/didcomm-messaging/guide,,https://github.com/decentralized-identity/didcomm-messaging,Informational
+JWM,IETF,non-core,JSON Web Message,Network Working Group Internet Draft,https://tools.ietf.org/id/draft-looker-jwm-01.html,,,Working Group
+JWA,IETF,non-core,JSON Web Algorithms,IETF RFC,https://tools.ietf.org/html/rfc7518,,,Proposed Standard
+bbs-signatures-spec,MATTR,core,BBS+ Signature Scheme,Internet Informational Draft,https://mattrglobal.github.io/bbs-signatures-spec,,https://mattrglobal.github.io/bbs-signatures-spec,Draft
+rdf-dataset-normalization,,non-core,RDF Dataset Normalization,W3C Draft Group Community Report,https://json-ld.github.io/normalization/spec,,,Community Group
+ldp-bbs2020,W3C,core,BBS+ Signatures 2020,W3C Draftt Community Group Report,https://w3c-ccg.github.io/ldp-bbs2020,,https://github.com/w3c-ccg/ldp-bbs2020/,Community Group
+ld-proofs,W3C,core,Linked Data Proofs,W3C Draft Community Group Report,https://w3c-ccg.github.io/ld-proofs,,https://github.com/w3c-ccg/ld-proofs/,Community Group
+ld-cryptosuite-registry,W3C,core,Linked Data Cryptographic Suite Registry,W3C Draft Community Group Report,https://w3c-ccg.github.io/ld-cryptosuite-registry,,https://github.com/w3c-ccg/ld-cryptosuite-registry/,Community Group
+OIDC,OpenId,non-core,Welcome to OpenID Connect,Other,https://openid.net/connect/,,,Working Group
+JWS-unencoded-payload,IETF,non-core,JSON Web Signature (JWS) Unencoded Payload Option,IETF RFC,https://tools.ietf.org/html/rfc7797,,,Proposed Standard
