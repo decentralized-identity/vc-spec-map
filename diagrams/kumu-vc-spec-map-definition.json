@@ -130,6 +130,43 @@
       "cluster": false
     },
     {
+      "_id": "attr-Y7RNYwTV",
+      "name": "Maturity",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "list",
+      "locked": false,
+      "values": [
+        "Draft",
+        "Community Group",
+        null,
+        "Proposed Standard",
+        "Standard",
+        "Working Group",
+        "Informational",
+        "Aries Proposed",
+        "Aries Demonstrated",
+        "Candidate Recommendation"
+      ],
+      "sort": false,
+      "cluster": true
+    },
+    {
+      "_id": "attr-07ebq8T4",
+      "name": "Repo URL",
+      "format": "url",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "none",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": true
+    },
+    {
       "_id": "attr-M43i9U7j",
       "name": "Tags",
       "format": "string",
@@ -169,12 +206,8 @@
       "cluster": true
     }
   ],
-  "elements": [
-    
-  ],
-  "connections": [
-    
-  ],
+  "elements": [],
+  "connections": [],
   "loops": [],
   "maps": [
     {
@@ -219,7 +252,7 @@
     {
       "_id": "pers-YCmf78hh",
       "name": "Full Map Text Block",
-      "style": "@settings {\n  template: causal-loop;\n  layout-preset: hairball;\n  layout: force;\n  element-color: categorize(\"Element Type\", neon2);\n  same-label: \"\";\n  opposite-label: \"\";\n}\n\n/* core \nelement[\"element type\"=\"core\"] {\n  color: #36a155;\n}\n*/\n\n/* non-core \nelement[\"element type\"=\"non-core\"] {\n  color: #f87d29;\n}\n*/\n"
+      "style": "@settings {\n  template: causal-loop;\n  layout-preset: hairball;\n  layout: force;\n  element-color: categorize(\"Element Type\", neon2);\n  same-label: \"\";\n  opposite-label: \"\";\n  font-size: 47;\n}\n\n"
     },
     {
       "_id": "pers-roGGZvV4",
