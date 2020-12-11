@@ -4,9 +4,19 @@ diagrams and documentation on the relationship of verfiable credential related s
 The current release contains some of the most core specifications and their related specs in a diagram.
 It does not yet address some of the items especially under DIF work groups for secure data storage, SIOP, Sidetree etc.
 
-Corrections welcome. This is a work in progress. Contribute via filling of issues or a PR.
+Corrections welcome. This is a work in progress. Contribute via filing of issues or a PR.
 
-Current release contains a draw.io diagram that will open freely in a browser using the open source https://app.diagrams.net. It also contains the primary diagram output as a png and pdf. There is a parallel release of the diagram in development on kumu at https://www.kumu.io/michaelruminer/vc-spec-map. It is expected that a kumu version will end up supplanting the draw.io version in the near future.
+## Release
+The current map is released in 3 formats.
+- kumu.io at https://www.kumu.io/michaelruminer/vc-spec-map
+- JPEG (.jfif)
+- PDF
+
+
+The current kumu.io map is in a personal workspace. This is likely only an interim home and will be moved in the future. Watch this README for changes.
+
+Releases prior to v1.2.0 did not use kumu.io and instead used a diagrams.net/draw.io manually drawn map.
+
 
 
 
