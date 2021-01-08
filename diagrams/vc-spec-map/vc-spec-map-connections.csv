@@ -81,3 +81,7 @@ presentation-exchange,OIDC,depends,depends
 presentation-exchange,vc-data-model,depends,depends
 presentation-exchange,JWS-unencoded-payload,depends,depends
 JWS-unencoded-payload,JWT,related,related
+well-known-did,well-known-did-1-of-a,depends,depends
+well-known-did-1-of-a,JWT,references,references
+well-known-did-1-of-a,ld-proofs,references,references
+well-known-did,JSON-LD,depends,depends

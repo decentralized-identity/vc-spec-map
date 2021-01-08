@@ -66,3 +66,4 @@ ld-proofs,W3C,core,Linked Data Proofs,W3C Draft Community Group Report,https://w
 ld-cryptosuite-registry,W3C,core,Linked Data Cryptographic Suite Registry,W3C Draft Community Group Report,https://w3c-ccg.github.io/ld-cryptosuite-registry,,https://github.com/w3c-ccg/ld-cryptosuite-registry/,Community Group,11/17/2020
 OIDC,OpenId,non-core,Welcome to OpenID Connect,Other,https://openid.net/connect/,,,Working Group,
 JWS-unencoded-payload,IETF,non-core,JSON Web Signature (JWS) Unencoded Payload Option,IETF RFC,https://tools.ietf.org/html/rfc7797,,,Proposed Standard,
+well-known-did-1-of-a,aggregate,intermediate,1 of a,,,,,,1/8/2021
