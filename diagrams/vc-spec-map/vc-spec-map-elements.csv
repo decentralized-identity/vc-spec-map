@@ -53,7 +53,7 @@ credential-management,W3C,non-core,Credential Management Level 1,W3C Working Dra
 secure-contexts,W3C,non-core,Secure Contexts,W3C Candidate Recommendation,https://www.w3.org/TR/secure-contexts,,,Candidate Recommendation,
 service-workers-1,W3C,non-core,Service Workers 1,W3C Candidate Recommendation,https://www.w3.org/TR/service-workers-1,,,Candidate Recommendation,
 web-idl,,non-core,Web Interface Definition Language,W3C Editors Draft,https://heycam.github.io/webidl,,,Draft,
-well-known-did,DIF,core,Well Known DID Configuration,DIF Working Group Approved Draft,https://identity.foundation/.well-known/resources/did-configuration,,https://github.com/decentralized-identity/.well-known/,Working Group,11/17/2020
+well-known-did,DIF,core,Well Known DID Configuration,DIF Working Group Approved Draft,https://identity.foundation/.well-known/resources/did-configuration,,https://github.com/decentralized-identity/.well-known/,Working Group,1/8/2021
 presentation-exchange,DIF,core,Presentation Exchange,DIF Working Group Draft,https://identity.foundation/presentation-exchange,,https://github.com/decentralized-identity/presentation-exchange,Working Group,12/4/2020
 didcomm-messaging,DIF,core,DidComm Messaging,DIF Editor's Draft,https://identity.foundation/didcomm-messaging/spec,,https://github.com/decentralized-identity/didcomm-messaging,Draft,11/17/2020
 did-comm-messaging-guide,DIF,core,DIDComm Messaging Implementer's Guide,DIF Informational,https://identity.foundation/didcomm-messaging/guide,,https://github.com/decentralized-identity/didcomm-messaging,Informational,11/17/2020
