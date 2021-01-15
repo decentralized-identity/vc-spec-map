@@ -18,7 +18,7 @@ did-method-peer,W3C|DIF,core,Peer DID Method Specification,W3C Unofficial Draft,
 did-method-sovrin,W3C|Sovrin,core,Sovrin DID Method Specification,W3C Editor's Draft,https://sovrin-foundation.github.io/sovrin/spec/did-method-spec-template.html,,https://github.com/sovrin-foundation/sovrin,Draft,1/12/2021
 did-method-web,W3C,core,did:web Method Specification,W3C Draft Community Group Report,https://w3c-ccg.github.io/did-method-web,,https://github.com/w3c-ccg/did-method-web/,Community Group,1/12/2021
 did-dns,IETF,non-core,Decentralized Identifier in the DNS,IETF Network Working Group Internet Draft,https://tools.ietf.org/html/draft-mayrhofer-did-dns-01,,,Working Group,
-did-method-other,W3C,core,Other did methods,,,"Other did methods not specifically shown on this map but referenced",,,1/12/2021
+did-method-other,W3C,core,Other did methods,,,Other did methods not specifically shown on this map but referenced,,,1/12/2021
 SHA256,IETF,non-core,US Secure Hash Algorithms,IETF RFC,https://tools.ietf.org/html/rfc4634,,,Informational,
 Base58,IETF,non-core,Base 58 Encoding Scheme,IETF Internet Draft Informational,https://tools.ietf.org/id/draft-msporny-base58-01.html,,,Draft,
 multicodec,,non-core,Table of Codecs,Other,https://github.com/multiformats/multicodec/blob/master/README.md,,,Draft,
@@ -53,7 +53,7 @@ secure-contexts,W3C,non-core,Secure Contexts,W3C Candidate Recommendation,https:
 service-workers-1,W3C,non-core,Service Workers 1,W3C Candidate Recommendation,https://www.w3.org/TR/service-workers-1,,,Candidate Recommendation,
 web-idl,,non-core,Web Interface Definition Language,W3C Editors Draft,https://heycam.github.io/webidl,,,Draft,
 well-known-did,DIF,core,Well Known DID Configuration,DIF Working Group Approved Draft,https://identity.foundation/.well-known/resources/did-configuration,,https://github.com/decentralized-identity/.well-known/,Working Group,1/8/2021
-presentation-exchange,DIF,core,Presentation Exchange,DIF Working Group Draft,https://identity.foundation/presentation-exchange,,https://github.com/decentralized-identity/presentation-exchange,Working Group,12/4/2020
+presentation-exchange,DIF,core,Presentation Exchange,DIF Working Group Draft,https://identity.foundation/presentation-exchange,,https://github.com/decentralized-identity/presentation-exchange,Working Group,1/15/2021
 didcomm-messaging,DIF,core,DidComm Messaging,DIF Editor's Draft,https://identity.foundation/didcomm-messaging/spec,,https://github.com/decentralized-identity/didcomm-messaging,Draft,1/12/2021
 did-comm-messaging-guide,DIF,core,DIDComm Messaging Implementer's Guide,DIF Informational,https://identity.foundation/didcomm-messaging/guide,,https://github.com/decentralized-identity/didcomm-messaging,Informational,1/12/2021
 JWM,IETF,non-core,JSON Web Message,Network Working Group Internet Draft,https://tools.ietf.org/id/draft-looker-jwm-01.html,,,Working Group,
