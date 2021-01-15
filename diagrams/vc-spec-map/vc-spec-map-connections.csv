@@ -54,7 +54,7 @@ CHAPI,service-workers-1,depends,depends
 CHAPI,web-idl,depends,depends
 well-known-did,vc-data-model,depends,depends
 well-known-did,did-core,depends,depends
-presentation-exchange,JWT,depends,depends
+presentation-exchange,JWT,references,references
 didcomm-messaging,JWT,depends,depends
 did-comm-messaging-guide,didcomm-messaging,depends,depends
 didcomm-messaging,did-comm-messaging-guide,references,references
@@ -66,11 +66,11 @@ ldp-bbs2020,ld-proofs,depends,depends
 ldp-bbs2020,security-vocab,depends,depends
 ld-proofs,ld-cryptosuite-registry,depends,depends
 ld-proofs,rdf-dataset-normalization,references,references
-presentation-exchange,CHAPI,depends,depends
-presentation-exchange,didcomm-messaging,depends,depends
-presentation-exchange,OIDC,depends,depends
+presentation-exchange,CHAPI,references,references
+presentation-exchange,didcomm-messaging,references,references
+presentation-exchange,OIDC,references,references
 presentation-exchange,vc-data-model,depends,depends
-presentation-exchange,JWS-unencoded-payload,depends,depends
+presentation-exchange,JWS-unencoded-payload,references,references
 JWS-unencoded-payload,JWT,related,related
 well-known-did,well-known-did-1-of-a,depends,depends
 well-known-did-1-of-a,JWT,references,references
@@ -88,3 +88,4 @@ did-spec-registries-1-of-b,did-method-web,references,references
 did-spec-registries-1-of-b,did-method-peer,references,references
 did-spec-registries-1-of-b,did-method-other,references,references
 did-spec-registries,did-spec-registries-1-of-b,references,references
+presentation-exchange,ld-cryptosuite-registry,references,references
