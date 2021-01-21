@@ -1,8 +1,9 @@
 # Verifiable Credentials Specification Map
-diagrams and documentation on the relationship of verfiable credential related specifications.
+A mapping of some of the core verifiable credential specifications and the dependencies and references of those specifications. 
 
-The current release contains some of the most core specifications and their related specs in a diagram.
-It does not yet address some of the items especially under DIF work groups for secure data storage, SIOP, Sidetree etc.
+There are many specification type documents related to verifiable credentials. These specifications depend upon or sometimes simply reference one another. The result is a complex and large interconnected web of specifications that can be daunting to traverse and study. This map, in being able to quickly see the relationship and dependencies, helps the reader understand and traverse the relationships.
+
+There is a video [introducing the map video](https://us02web.zoom.us/rec/play/1S7SW3-XRzEEi4LX-w9SH5zbUyu9Zy4eUQ2ilL7UbfvMghESmMONW0R5L1zOxrjsGJe9IKr634wJ8DIG.-zm-7A2M_JmXEfAJ?continueMode=true&_x_zm_rtaid=kopTclmIR0iz5_SWYP86rA.1611248968017.55f5ed3e1d92d74ff20733c7ae197daf&_x_zm_rhtaid=70) from time 00:30:00 to 00:50:00. This video was before the map was converted to a data driven kumu rendering but other than the look of the map the rest of the introduction is valid.
 
 Corrections welcome. This is a work in progress. Contribute via filing of issues or a PR.
 
