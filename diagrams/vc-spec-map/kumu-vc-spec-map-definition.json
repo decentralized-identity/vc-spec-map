@@ -54,7 +54,7 @@
       "private": false,
       "limit": 1,
       "category": "General",
-      "prompt": "autocomplete",
+      "prompt": "list",
       "locked": false,
       "values": [
         "W3C Working Draft",
@@ -75,7 +75,18 @@
         "W3C Recommendation",
         "Aries RFC",
         "W3C Working Group Note",
-        "Network Working Group Internet Draft"
+        "Network Working Group Internet Draft",
+        "WW3C Draft Community Group Report",
+        "W3C Candidate Recommendation",
+        "W3C Editors Draft",
+        "DIF Working Group Approved Draft",
+        "DIF Working Group Draft",
+        "DIF Editor's Draft",
+        "DIF Informational",
+        "Internet Informational Draft",
+        "W3C Draft Group Community Report",
+        "W3C Draftt Community Group Report",
+        null
       ],
       "sort": false,
       "cluster": true
@@ -91,7 +102,8 @@
       "locked": false,
       "values": [
         "core",
-        "non-core"
+        "non-core",
+        "intermediate"
       ],
       "sort": false,
       "cluster": true
@@ -148,7 +160,8 @@
         "Informational",
         "Aries Proposed",
         "Aries Demonstrated",
-        "Candidate Recommendation"
+        "Candidate Recommendation",
+        null
       ],
       "sort": false,
       "cluster": true
@@ -163,6 +176,28 @@
       "prompt": "none",
       "locked": false,
       "values": [],
+      "sort": false,
+      "cluster": true
+    },
+    {
+      "_id": "attr-a4Or140Z",
+      "name": "Spec Last Reviewed Date",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "list",
+      "locked": false,
+      "values": [
+        "12/30/2020",
+        "11/17/2020",
+        null,
+        "12/4/2020",
+        "1/8/2021",
+        "1/12/2021",
+        null,
+        "1/15/2021"
+      ],
       "sort": false,
       "cluster": true
     },
@@ -252,12 +287,17 @@
     {
       "_id": "pers-YCmf78hh",
       "name": "Full Map Text Block",
-      "style": "@settings {\n  template: causal-loop;\n  layout-preset: hairball;\n  layout: force;\n  element-color: categorize(\"Element Type\", neon2);\n  same-label: \"\";\n  opposite-label: \"\";\n  font-size: 47;\n}\n\n"
+      "style": "@controls {\n  bottom-right {\n    filter {\n      target: element;\n      by: \"element type\";\n      as: buttons;\n      multiple: true;\n      default: show-all;\n    }\n  }\n\n  bottom-right {\n    filter {\n      target: connection;\n      by: \"connection type\";\n      as: buttons;\n      multiple: true;\n      default: show-all;\n    }\n  }\n}\n\n@settings {\n  template: causal-loop;\n  layout-preset: hairball;\n  layout: force;\n  same-label: \"\";\n  opposite-label: \"\";\n  font-size: 47;\n}\n\n/* depends */\nconnection[\"connection type\"=\"depends\"] {\n  size: 15;\n  color: #000000;\n}\n\n/* implements */\nconnection[\"connection type\"=\"implements\"] {\n  color: #56B4E9;\n}\n\n/* references */\nconnection[\"connection type\"=\"references\"] {\n  color: #0072B2;\n}\n\n/* extends */\nconnection[\"connection type\"=\"extends\"] {\n  color: #E69F00;\n}\n\n/* related */\nconnection[\"connection type\"=\"related\"] {\n  color: #CC79A7;\n}\n\n/* elements: intermediate */\n[\"Element Type\"=\"intermediate\"] {\n  color: #E69F00;\n}\n\n/* core */\nelement[\"element type\"=\"core\"] {\n  color: #0AD2F1;\n}\n\n/* non-core */\nelement[\"element type\"=\"non-core\"] {\n  color: #F7E81F;\n}"
     },
     {
       "_id": "pers-roGGZvV4",
       "name": "Text Map All Nodes",
       "style": "@settings {\n  template: causal-loop;\n}\n\n"
+    },
+    {
+      "_id": "pers-eu538HBr",
+      "name": "playground",
+      "style": "@controls {\n  bottom-right {\n    filter {\n      target: element;\n      by: \"element type\";\n      as: buttons;\n      multiple: true;\n      default: show-all;\n    }\n  }\n\n  bottom-right {\n    filter {\n      target: connection;\n      by: \"connection type\";\n      as: buttons;\n      multiple: true;\n      default: show-all;\n    }\n  }\n}\n\n@settings {\n  template: causal-loop;\n  layout-preset: hairball;\n  layout: force;\n  same-label: \"\";\n  opposite-label: \"\";\n  font-size: 47;\n}\n\n/* depends */\nconnection[\"connection type\"=\"depends\"] {\n  size: 15;\n  color: #000000;\n}\n\n/* implements */\nconnection[\"connection type\"=\"implements\"] {\n  color: #56B4E9;\n}\n\n/* references */\nconnection[\"connection type\"=\"references\"] {\n  color: #0072B2;\n}\n\n/* extends */\nconnection[\"connection type\"=\"extends\"] {\n  color: #E69F00;\n}\n\n/* related */\nconnection[\"connection type\"=\"related\"] {\n  color: #CC79A7;\n}\n\n/* elements: intermediate */\n[\"Element Type\"=\"intermediate\"] {\n  color: #E69F00;\n}\n\n/* core */\nelement[\"element type\"=\"core\"] {\n  color: #0AD2F1;\n}\n\n/* non-core */\nelement[\"element type\"=\"non-core\"] {\n  color: #F7E81F;\n}\n\n"
     }
   ]
 }
