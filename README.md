@@ -21,6 +21,7 @@ Releases prior to v1.2.0 did not use kumu.io and instead used a diagrams.net/dra
 ## Using and Navigating Kumu
 A few notes for people that may not be familiar with the Kumu mapping tool. Kumu creates auto-generated maps driven from two tables of data- elements and connections. It provides extensive individual user control over how the diagram/map is formatted and presented including use of a JSON style definition to control the output. The contributors of the map can create default maps and views.
 
+* The bottom right corner of the map contains easy filtering buttons to allow for show/hide of each specification element type (core, non-core, and intermediate) as well as for each of the connection types.
 * One simple mechanic that is helpful for non-mobile browser users is to hover the pointer over a node and it will cause that node and nodes it is connected to to stay visible and will fade out all the other nodes. This is very valuable in such a large and complex map.
 
 * For all browser environments the search feature in such a large map is critical to navigate to a desired node.
