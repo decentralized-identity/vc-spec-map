@@ -248,14 +248,14 @@
     {
       "_id": "map-GLvw45PH",
       "name": "Verifiable Credentials Specification Map",
-      "description": "verifiable credentials specification map",
+      "description": "verifiable credentials specification map\n\ngithub project: https://github.com/decentralized-identity/vc-spec-map",
       "scale": 1,
       "center": {
         "x": 0,
         "y": 0
       },
       "defaultPerspective": "pers-YCmf78hh",
-      "defaultElementBehavior": "fixed",
+      "defaultElementBehavior": "floating",
       "defaultConnectionDirection": "directed",
       "elements": [],
       "connections": [],
