@@ -19,7 +19,6 @@ did-method-peer,Base58,depends,depends
 did-method-key,multicodec,depends,depends
 did-method-peer,multicodec,depends,depends
 did-method-key,draft-multiformats-multibase-02,depends,depends
-did-resolution,URI-syntax,depends,depends
 did-core,JSON-LD,depends,depends
 did-core,JWK,depends,depends
 did-core,XSD-Part2-Datatypes,depends,depends
@@ -43,9 +42,6 @@ vc-status-rl-2020,ZLIB,depends,depends
 vc-status-rl-2020,Base 64,depends,depends
 vc-json-schemas,vc-data-model,depends,depends
 vc-json-schemas,did-core,depends,depends
-did-use-cases,vc-data-model,references,references
-did-use-cases,did-spec-registries,references,references
-did-use-cases,did-auth,references,references
 vp-request-spec,CHAPI,references,references
 CHAPI,vp-request-spec,depends,depends
 CHAPI,credential-management,extends,extends
