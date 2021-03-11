@@ -72,7 +72,6 @@ well-known-did,well-known-did-1-of-a,depends,depends
 well-known-did-1-of-a,JWT,depends,depends
 well-known-did-1-of-a,ld-proofs,depends,depends
 well-known-did,JSON-LD,depends,depends
-did-use-cases,did-core,references,references
 did-spec-registries,did-spec-registries-1-of-a,implements,implements
 did-spec-registries-1-of-a,EcdsaSecp256k1-RecoverySignature-2020,implements,implements
 did-spec-registries-1-of-a,signature-other,implements,implements
