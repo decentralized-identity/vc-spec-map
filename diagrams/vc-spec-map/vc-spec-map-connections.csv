@@ -18,7 +18,7 @@ did-method-peer,SHA256,depends,depends
 did-method-peer,Base58,depends,depends
 did-method-key,multicodec,depends,depends
 did-method-peer,multicodec,depends,depends
-did-method-key,draft-multiformats-multibase-02,depends,depends
+did-method-key,draft-multiformats-multibase-03,depends,depends
 did-core,JSON-LD,depends,depends
 did-core,JWK,depends,depends
 did-core,XSD-Part2-Datatypes,depends,depends
