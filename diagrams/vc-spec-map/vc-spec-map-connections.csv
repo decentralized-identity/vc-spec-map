@@ -3,11 +3,7 @@ did-spec-registries,did-core,depends,depends
 did-core,did-spec-registries,references,references
 did-spec-registries,security-vocab,implements,implements
 did-core,CBOR,implements,implements
-did-core,DagCBOR,implements,implements
-did-core,COSE,implements,implements
 CBOR,CBOR-Tag-Registry,depends,depends
-DagCBOR,CBOR,extends,extends
-COSE,CBOR,related,related
 CBOR-Tags-Date,CBOR,related,related
 CBOR-Tags-Date,CBOR-Tag-Registry,related,related
 did-resolution,did-core,depends,depends
@@ -18,7 +14,7 @@ did-method-peer,SHA256,depends,depends
 did-method-peer,Base58,depends,depends
 did-method-key,multicodec,depends,depends
 did-method-peer,multicodec,depends,depends
-did-method-key,draft-multiformats-multibase-03,depends,depends
+did-method-key,multibase,depends,depends
 did-core,JSON-LD,depends,depends
 did-core,JWK,depends,depends
 did-core,XSD-Part2-Datatypes,depends,depends
@@ -84,3 +80,7 @@ did-spec-registries-1-of-b,did-method-peer,references,references
 did-spec-registries-1-of-b,did-method-other,references,references
 did-spec-registries,did-spec-registries-1-of-b,references,references
 presentation-exchange,ld-cryptosuite-registry,references,references
+did-core,jwk-thumbprint,references,references
+did-core,Base58,references,references
+did-core,multibase,references,references
+did-core,hashlinks,references,references
