@@ -39,5 +39,7 @@ A few notes for people that may not be familiar with the Kumu mapping tool. Kumu
    * The Element Type
    * Description
 
+## Contributing
+See this project's wiki for information on how changes to the map can be created through the CSV data files that are part of the repo. You can test the map output of any proposed changes by following the Deploy to Kumu directions, also in the wiki, in a personal Kumu workspace.
 
 
