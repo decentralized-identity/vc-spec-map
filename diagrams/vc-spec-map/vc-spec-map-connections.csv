@@ -9,19 +9,9 @@ CBOR-Tags-Date,CBOR-Tag-Registry,related,related
 did-resolution,did-core,depends,depends
 did-resolution,did-method-key,references,references
 did-resolution,did-method-peer,references,references
-did-method-web,did-dns,references,references
-did-method-peer,SHA256,depends,depends
-did-method-peer,Base58,depends,depends
-did-method-key,multicodec,depends,depends
-did-method-peer,multicodec,depends,depends
-did-method-key,multibase,depends,depends
 did-core,JSON-LD,depends,depends
 did-core,JWK,depends,depends
 did-core,XSD-Part2-Datatypes,depends,depends
-did-method-peer,did-comm-aries-Sync-Connection,references,references
-did-method-peer,did-comm-aries-Out-of-Band,references,references
-did-method-peer,did-comm: aries: Exchange,references,references
-did-method-peer,aries-predefined-identities,references,references
 vc-data-model,JSON-LD,depends,depends
 vc-data-model,Timestamps,depends,depends
 vc-data-model,JWT,depends,depends

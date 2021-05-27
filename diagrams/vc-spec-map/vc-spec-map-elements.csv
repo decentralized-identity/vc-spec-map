@@ -15,19 +15,12 @@ did-method-key,W3C,non-core,The did:key Method,W3C Unofficial Draft,https://w3c-
 did-method-peer,W3C|DIF,non-core,Peer DID Method Specification,W3C Unofficial Draft,https://identity.foundation/peer-did-method-spec,,https://github.com/decentralized-identity/peer-did-method-spec/,Draft,3/11/2021
 did-method-sovrin,W3C|Sovrin,non-core,Sovrin DID Method Specification,W3C Editor's Draft,https://sovrin-foundation.github.io/sovrin/spec/did-method-spec-template.html,,https://github.com/sovrin-foundation/sovrin,Draft,1/12/2021
 did-method-web,W3C,non-core,did:web Method Specification,W3C Draft Community Group Report,https://w3c-ccg.github.io/did-method-web,,https://github.com/w3c-ccg/did-method-web/,Community Group,3/11/2021
-did-dns,IETF,non-core,Decentralized Identifier in the DNS,IETF Network Working Group Internet Draft,https://tools.ietf.org/html/draft-mayrhofer-did-dns-01,,,Working Group,
 did-method-other,W3C,non-core,Other did methods,,,Other did methods not specifically shown on this map but referenced,,,1/12/2021
-SHA256,IETF,non-core,US Secure Hash Algorithms,IETF RFC,https://tools.ietf.org/html/rfc4634,,,Informational,
 Base58,IETF,non-core,Base 58 Encoding Scheme,IETF Internet Draft Informational,https://tools.ietf.org/id/draft-msporny-base58-01.html,,,Draft,
-multicodec,,non-core,Table of Codecs,Other,https://github.com/multiformats/multicodec/blob/master/README.md,,,Draft,
 multibase,IETF,non-core,Multibase Data Format,IETF Networking Working Group Internet Draft,https://datatracker.ietf.org/doc/html/draft-multiformats-multibase-03,,,Working Group,
 JSON-LD,W3C,non-core,A JSON-based Serialization for Linked Data,W3C Recommendation,https://www.w3.org/TR/json-ld11,,,Standard,
 JWK,IETF,non-core,JSON Web Key,IETF RFC,https://tools.ietf.org/html/rfc7517,,,Proposed Standard,
 XSD-Part2-Datatypes,W3C,non-core,XML XSD  Part 2: Datatypes,W3C Recommendation,https://www.w3.org/TR/xmlschema11-2/,,,Standard,
-did-comm-aries-Sync-Connection,Aries,core,Sync Connection Protocol,Aries RFC,https://github.com/hyperledger/aries-rfcs/blob/master/features/0030-sync-connection,,https://github.com/hyperledger/aries-rfcs/tree/master/features/0030-sync-connection,Aries Proposed,11/17/2020
-did-comm-aries-Out-of-Band,Aries,core,Out of Band Protocol,Aries RFC,https://github.com/hyperledger/aries-rfcs/blob/master/features/0434-outofband,,https://github.com/hyperledger/aries-rfcs/blob/master/features/0434-outofband,Aries Proposed,11/17/2020
-did-comm: aries: Exchange,Aries,core,Exchange Protocol,Aries RFC,https://github.com/hyperledger/aries-rfcs/blob/master/features/0023-did-exchange,,https://github.com/hyperledger/aries-rfcs/blob/master/features/0023-did-exchange,Aries Demonstrated,11/17/2020
-aries-predefined-identities,Aries,core,Aries Predefined Identities,Aries RFC,https://github.com/hyperledger/aries-rfcs/tree/master/features/0114-predefined-identities,,https://github.com/hyperledger/aries-rfcs/tree/master/features/0114-predefined-identities,Aries Proposed,3/11/2021
 vc-data-model,W3C,core,Verifiable Credentials Data Model,W3C Recommendation,https://www.w3.org/TR/vc-data-model,,https://github.com/w3c/vc-data-model/,Standard,3/11/2021
 Timestamps,IETF,non-core,Date and Time on the Internet: Timestamps,IETF RFC,https://tools.ietf.org/html/rfc3339,,,Proposed Standard,
 JWT,IETF,non-core,JSON Web Token,IETF RFC,https://tools.ietf.org/html/rfc7519,,,Proposed Standard,
