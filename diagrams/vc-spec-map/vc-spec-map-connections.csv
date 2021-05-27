@@ -2,10 +2,6 @@ from,to,type,label
 did-spec-registries,did-core,depends,depends
 did-core,did-spec-registries,references,references
 did-spec-registries,security-vocab,implements,implements
-did-core,CBOR,implements,implements
-CBOR,CBOR-Tag-Registry,depends,depends
-CBOR-Tags-Date,CBOR,related,related
-CBOR-Tags-Date,CBOR-Tag-Registry,related,related
 did-resolution,did-core,depends,depends
 did-resolution,did-method-key,references,references
 did-resolution,did-method-peer,references,references
