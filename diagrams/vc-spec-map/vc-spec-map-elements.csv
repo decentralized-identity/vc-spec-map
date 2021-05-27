@@ -13,7 +13,6 @@ did-method-peer,W3C|DIF,non-core,Peer DID Method Specification,W3C Unofficial Dr
 did-method-sovrin,W3C|Sovrin,non-core,Sovrin DID Method Specification,W3C Editor's Draft,https://sovrin-foundation.github.io/sovrin/spec/did-method-spec-template.html,,https://github.com/sovrin-foundation/sovrin,Draft,1/12/2021
 did-method-web,W3C,non-core,did:web Method Specification,W3C Draft Community Group Report,https://w3c-ccg.github.io/did-method-web,,https://github.com/w3c-ccg/did-method-web/,Community Group,3/11/2021
 did-method-other,W3C,non-core,Other did methods,,,Other did methods not specifically shown on this map but referenced,,,1/12/2021
-Base58,IETF,non-core,Base 58 Encoding Scheme,IETF Internet Draft Informational,https://tools.ietf.org/id/draft-msporny-base58-01.html,,,Draft,
 multibase,IETF,non-core,Multibase Data Format,IETF Networking Working Group Internet Draft,https://datatracker.ietf.org/doc/html/draft-multiformats-multibase-03,,,Working Group,
 JSON-LD,W3C,non-core,A JSON-based Serialization for Linked Data,W3C Recommendation,https://www.w3.org/TR/json-ld11,,,Standard,
 JWK,IETF,non-core,JSON Web Key,IETF RFC,https://tools.ietf.org/html/rfc7517,,,Proposed Standard,

@@ -67,6 +67,5 @@ did-spec-registries-1-of-b,did-method-other,references,references
 did-spec-registries,did-spec-registries-1-of-b,references,references
 presentation-exchange,ld-cryptosuite-registry,references,references
 did-core,jwk-thumbprint,references,references
-did-core,Base58,references,references
 did-core,multibase,references,references
 did-core,hashlinks,references,references
