@@ -1,5 +1,5 @@
 label,tags,type,Title,Document Type,URL,Description,Repo URL,Maturity,Spec Last Reviewed Date
-did-core,W3C,core,Decentralized Identifiers (DIDs) V1.0,W3C Candidate Recommendation,https://www.w3.org/TR/did-core/,,https://github.com/w3c/did-core/,Candidate Recommendation,3/18/2021
+did-core,W3C,core,Decentralized Identifiers (DIDs) V1.0,W3C Candidate Recommendation,https://www.w3.org/TR/did-core/,,https://github.com/w3c/did-core/,Candidate Recommendation,5/27/2021
 did-spec-registries,W3C,core,DID Specification Registries,W3C Editor's Draft,https://w3c.github.io/did-spec-registries,,https://github.com/w3c/did-spec-registries/,Draft,12/30/2020
 security-vocab,W3C,core,The Security Vocabulary,W3C Draft Community Group Report,https://w3c-ccg.github.io/security-vocab,,https://github.com/w3c-ccg/security-vocab/,Community Group,3/11/2021
 signature-other,aggregate,core,Other Signature Schemes,,,Other Signature Schemes Pending Normative Definition In http://w3c-ccg.github.io,,,3/11/2021
